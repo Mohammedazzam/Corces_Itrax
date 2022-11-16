@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    color: #777;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* .clear {
+    clear: both;
+} */
+/* Start Nav */
+nav {
+    overflow: auto;
+}
+nav .logo {
+    float: left;
+    width: 80%;
+}
+nav .logo img{
+    width: 13%;
+    padding: 4px 0;
+}
+nav .list {
+    float: left;
+    width: 20%;
+}
+nav .list ul {
+    list-style: none;
+}
+nav .list ul li a{
+    text-decoration: none;
+    float:left;
+    padding: 8px 6px;
+}
+
+/* End Nav */
