@@ -170,3 +170,41 @@ header .header-info p {
   line-height: 29px;
 }
 /* End History */
+
+/* Start Skills */
+.skils{
+  background-color: #f3487f;
+  height: 524px;
+}
+.skils .skils-info {
+  float: left;
+  width: 25%;
+}
+.skils .skils-info .skils-icon{
+  background-color: #fff;
+  text-align: center;
+  padding: 80px 0;
+}
+.skils .skils-info .skils-icon:hover {
+  background-color: #f3487f;
+  color: #fff;
+}
+.skils .skils-info .skils-icon:hover p{
+  color: #fff;
+}
+.skils .skils-info .skils-icon img{
+  width: 20%;
+}
+.skils .skils-info .skils-icon p {
+  color: #000;
+  font-size: 23px;
+  font-weight: 600;
+}
+.skils .skils-info .skils-dec {
+  background: #6f7598;
+  padding: 82.5px 26px;
+  color: #fff;
+  text-align: center;
+}
+
+/* End Skills */
