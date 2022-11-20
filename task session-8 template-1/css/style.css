@@ -5,30 +5,30 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #777;
+  height: 10000px;
 }
 .container {
   width: 1200px;
   margin: auto;
 }
 .btn {
-    background-color: #6a4dc5;
-    border:0;
-    outline: none;
-    padding: 12px 50px;
-    border: 1px solid #fff;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    color: #fff;
-    font-weight: 900;
-    text-transform: uppercase;
+  background-color: #6a4dc5;
+  border: 0;
+  outline: none;
+  padding: 12px 50px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 .heading {
   text-align: center;
   margin-bottom: 90px;
-
 }
 .heading h3 {
   color: #000;
@@ -103,15 +103,15 @@ header .header-info {
   color: #fff;
 }
 header .header-info h4 {
-    font-size: 55px;
-    margin: 0 0 23px;
-    line-height: 57px;
-    font-weight: 100;
-    font-family: "Poppins",sans-serif;
+  font-size: 55px;
+  margin: 0 0 23px;
+  line-height: 57px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
 }
 header .header-info p {
-    margin-bottom: 60px;
-    font-size: 16px;
+  margin-bottom: 60px;
+  font-size: 16px;
 }
 /* End Header */
 
@@ -120,7 +120,7 @@ header .header-info p {
   background-color: #f2f5f7;
   padding: 70px 0;
 }
-.history .history-dec{
+.history .history-dec {
   width: 100%;
   height: 467px;
   background-color: #fff;
@@ -129,7 +129,7 @@ header .header-info p {
   float: left;
   width: 33.3333%;
 }
-.history .history-img img{
+.history .history-img img {
   margin: -20px 25px;
 }
 .history .history-info {
@@ -145,7 +145,7 @@ header .header-info p {
   background-color: #6a4dc5;
   color: #fff;
 }
-.history .list-btn .btn{
+.history .list-btn .btn {
   padding: 15px 25px;
   background-color: transparent;
   color: #777777;
@@ -155,16 +155,16 @@ header .header-info p {
   text-transform: capitalize;
   font-weight: normal;
 }
-.history .list-btn .btn:hover{
+.history .list-btn .btn:hover {
   background-color: #6a4dc5;
   color: #fff;
 }
-.history-info h3{
+.history-info h3 {
   color: #000;
   font-size: 27px;
   margin-bottom: 22px;
 }
-.history-info p{
+.history-info p {
   color: #777777;
   font-size: 14px;
   line-height: 29px;
@@ -172,15 +172,16 @@ header .header-info p {
 /* End History */
 
 /* Start Skills */
-.skils{
+.skils {
   background-color: #f3487f;
-  height: 524px;
+  height: 522px;
+  overflow: auto;
 }
 .skils .skils-info {
   float: left;
   width: 25%;
 }
-.skils .skils-info .skils-icon{
+.skils .skils-info .skils-icon {
   background-color: #fff;
   text-align: center;
   padding: 80px 0;
@@ -189,10 +190,10 @@ header .header-info p {
   background-color: #f3487f;
   color: #fff;
 }
-.skils .skils-info .skils-icon:hover p{
+.skils .skils-info .skils-icon:hover p {
   color: #fff;
 }
-.skils .skils-info .skils-icon img{
+.skils .skils-info .skils-icon img {
   width: 20%;
 }
 .skils .skils-info .skils-icon p {
@@ -206,5 +207,58 @@ header .header-info p {
   color: #fff;
   text-align: center;
 }
-
 /* End Skills */
+
+/* Start Experiences */
+.expe {
+  padding: 70px 0;
+}
+.expe .vector {
+  overflow: auto;
+}
+.expe .vector .vector-info {
+  float: left;
+  width: 25%;
+}
+.expe .vector .vector-info .vector-img img {
+  width: 90%;
+}
+.expe .vector .vector-dec {
+  float: left;
+  width: 50%;
+}
+.expe .vector .vector-detal {
+  padding: 40px;
+}
+.expe .vector .vector-dec .vector-detal h2 {
+  color: #000;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.expe .vector .vector-dec .vector-detal h5 {
+  color: #5d5b5b;
+  font-weight: 200;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.expe .vector .vector-dec .vector-detal p {
+  color: #777777;
+  font-size: 15px;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+.expe .vector .vector-dec .vector-detal .btn {
+  background-color: transparent;
+  color: #6a4dc5;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+.expe .vector .vector-dec .vector-detal .btn:hover {
+  background-color: #6a4dc5;
+  color: #fff;
+}
+/* End Experiences */
