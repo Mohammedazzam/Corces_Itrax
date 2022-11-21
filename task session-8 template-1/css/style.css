@@ -5,7 +5,6 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #777;
-  height: 10000px;
 }
 .container {
   width: 1200px;
@@ -397,3 +396,43 @@ keep form textarea::placeholder {
   color: #fff;
 }
 /* End Together */
+
+/* Start Footer */
+footer {
+  background: #4e5375;
+  padding: 100px 0;
+  overflow: auto;
+}
+footer .footer-lisyt {
+  float: left;
+  width: 25%;
+}
+footer .footer-lisyt .list h5{
+  color: #fff;
+  margin-bottom: 10px;
+}
+footer .footer-lisyt .list ul{
+  list-style: none;
+}
+footer .footer-lisyt .list ul li a{
+  text-decoration: none;
+  color: #fff;
+  margin: 4px 0;
+  display: inline-block;
+}
+footer .footer-lisyt .list ul li a:hover{
+  color: #6a4dc5;
+}
+footer .footer-lisyt .list .footer-img {
+  float: left;
+  width: 21%;
+}
+footer .footer-lisyt .list.head {
+  margin-bottom: 20px;
+}
+.footer-end p {
+  margin-top: 40px 0;
+  color: #fff;
+}
+
+/* End Footer */
