@@ -306,7 +306,7 @@ header .header-info p {
 
 /* Start Keep */
 .keep {
-  padding: 100px 0 ;
+  padding: 100px 0;
 }
 .keep form {
   overflow: auto;
@@ -325,7 +325,8 @@ header .header-info p {
 .keep form input:nth-of-type(2) {
   margin-right: 0;
 }
-.keep form input::placeholder,keep form textarea::placeholder {
+.keep form input::placeholder,
+keep form textarea::placeholder {
   color: #777777;
   font-size: 16px;
 }
@@ -351,3 +352,48 @@ header .header-info p {
   color: #fff;
 }
 /* End Keep */
+
+/* Start Together */
+.together {
+  background-color: #f9c400;
+  padding: 100px 0;
+}
+.together .together-inp {
+  width: 40%;
+  margin: auto;
+  text-align: right;
+}
+.together .together-inp h3{
+  color: #fff;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+}
+.together .together-inp form{
+  position: relative;
+}
+.together .together-inp form input{
+  padding: 20px 20px;
+  width: 100%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border: 0;
+  outline: 0;
+}
+.together .together-inp .btn{
+  position: absolute;
+  padding: 10px 23px;
+  top: 8px;
+  right: -37px;
+  background: transparent;
+  border: 1.5px solid #eee;
+  color: #6a4dc5;
+}
+.together .together-inp .btn:hover{
+  background-color: #6a4dc5;
+  color: #fff;
+}
+/* End Together */
